@@ -527,6 +527,57 @@ Physics, Chemistry, Biology, Mathematics and Computer
 
 
 
+/* **************** Q19 **************** */
+/* Write a program to check whether a number is positive or negative or zero */
+
+// var x = Number(prompt(`please enter number`));
+
+// var isNegative = x<0;
+
+// switch (isNegative){
+//    case true:
+//       console.log(x, ' is negative');
+//       break;
+//    case false:
+//       console.log(x, ' is positive');
+//       break;
+//    default:
+//       console.log(x, ' is neither positive nor negative');
+//       break;
+// }
+
+/* **************** END Q19 **************** */
+
+
+
+/* **************** Q20 **************** */
+/* Write a program to create Simple Calculator */
+
+// var x = Number(prompt('please enter first number'));
+// var z = prompt('please enter operation symbol (+, /, *, ^, -)');
+// var y = Number(prompt('please enter second number'));
+// var result;
+
+// switch (z){
+//    case '+':
+//       result = x+y;
+//       break;
+//    case '/':
+//       result = x/y;
+//       break;
+//    case '-':
+//       result = x-y;
+//       break;
+//    case '*':
+//       result = x*y;
+//       break;
+//    case '^':
+//       result = x**y;
+//       break;
+// }
+
+// console.log(result);
+/* **************** END Q20 **************** */
 
 
 
