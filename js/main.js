@@ -455,6 +455,35 @@ Physics, Chemistry, Biology, Mathematics and Computer
 
 
 
+/* **************** Q16 **************** */
+/* Write a program to check whether an alphabet is vowel or consonant */
+
+// var x = prompt('please enter a letter');
+// var b;
+
+// switch (x){
+//    case 'a':
+//       b = 'vowel';
+//       break;
+//    case 'e':
+//       b = 'vowel';
+//       break;
+//    case 'o':
+//       b = 'vowel';
+//       break;
+//    case 'i':
+//       b = 'vowel';
+//       break;
+//    case 'u':
+//       b = 'vowel';
+//       break;
+//    default:
+//       b = 'consonant';
+//       break;
+// }
+
+
+/* **************** END Q16 **************** */
 
 
 
