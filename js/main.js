@@ -482,8 +482,50 @@ Physics, Chemistry, Biology, Mathematics and Computer
 //       break;
 // }
 
+// console.log(b);
 
 /* **************** END Q16 **************** */
+
+
+
+/* ****************  Q17 **************** */
+/* Write a program to find maximum between two numbers */
+
+// var x = Number(prompt('please enter first number'));
+// var y = Number(prompt('please enter second number'));
+
+// var z = x>y;
+
+// switch (){
+//    case true:
+//       console.log(`${x} is greater`);
+//       break;
+//    default:
+//       console.log(`${y} is greater`);
+// }
+
+/* **************** END Q17 **************** */
+
+
+
+/* **************** Q16 **************** */
+/* Write a program to check whether a number is even or odd */
+
+// var x = Number(prompt('please enter number'));
+
+// var modTwo = x%2;
+
+// switch (){
+//    case 1:
+//       console.log(`odd`);
+//       break;
+//    default:
+//       console.log(`even`);
+// }
+
+/* **************** END Q18 **************** */
+
+
 
 
 
