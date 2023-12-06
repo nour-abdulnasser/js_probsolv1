@@ -285,7 +285,7 @@ month. */
 //       break;
          
 //    case 11:
-//       b = 31;
+//       b = 30;
 //       break;
 
 //    case 12:
@@ -302,95 +302,155 @@ month. */
 Physics, Chemistry, Biology, Mathematics and Computer
 , Find percentage and grade */
 
-var grade1 = prompt('enter your physics grade');
-var grade2 = prompt('enter your chem grade');
-var grade3 = prompt('enter your bio grade');
-var grade4 = prompt('enter your maths grade');
-var grade5 = prompt('enter your computer grade');
+// var grade1 = prompt('enter your physics grade');
+// var grade2 = prompt('enter your chem grade');
+// var grade3 = prompt('enter your bio grade');
+// var grade4 = prompt('enter your maths grade');
+// var grade5 = prompt('enter your computer grade');
 
-if (grade1 >= 90){
-   grade1 = 'A';
-} else if (grade1>=80){
-   grade1 = 'B';
-} else if (grade1>=70){
-   grade1 = 'C';
-} else if (grade1>=60){
-   grade1 = 'D';
-} else if (grade1>=40){
-   grade1 = 'E';
-} else if (grade1<40){
-   grade1 = 'F';
-}
+// if (grade1 >= 90){
+//    grade1 = 'A';
+// } else if (grade1>=80){
+//    grade1 = 'B';
+// } else if (grade1>=70){
+//    grade1 = 'C';
+// } else if (grade1>=60){
+//    grade1 = 'D';
+// } else if (grade1>=40){
+//    grade1 = 'E';
+// } else if (grade1<40){
+//    grade1 = 'F';
+// }
 
-if (grade2 >= 90){
-   grade2 = 'A';
-} else if (grade2>=80){
-   grade2 = 'B';
-} else if (grade2>=70){
-   grade2 = 'C';
-} else if (grade2>=60){
-   grade2 = 'D';
-} else if (grade2>=40){
-   grade2 = 'E';
-} else if (grade2<40){
-   grade2 = 'F';
-}
-
-
-if (grade3 >= 90){
-   grade3 = 'A';
-} else if (grade3>=80){
-   grade3 = 'B';
-} else if (grade3>=70){
-   grade3 = 'C';
-} else if (grade3>=60){
-   grade3 = 'D';
-} else if (grade3>=40){
-   grade3 = 'E';
-} else if (grade3<40){
-   grade3 = 'F';
-}
+// if (grade2 >= 90){
+//    grade2 = 'A';
+// } else if (grade2>=80){
+//    grade2 = 'B';
+// } else if (grade2>=70){
+//    grade2 = 'C';
+// } else if (grade2>=60){
+//    grade2 = 'D';
+// } else if (grade2>=40){
+//    grade2 = 'E';
+// } else if (grade2<40){
+//    grade2 = 'F';
+// }
 
 
-if (grade4 >= 90){
-   grade4 = 'A';
-} else if (grade4>=80){
-   grade4 = 'B';
-} else if (grade4>=70){
-   grade4 = 'C';
-} else if (grade4>=60){
-   grade4 = 'D';
-} else if (grade4>=40){
-   grade4 = 'E';
-} else if (grade4<40){
-   grade4 = 'F';
-}
+// if (grade3 >= 90){
+//    grade3 = 'A';
+// } else if (grade3>=80){
+//    grade3 = 'B';
+// } else if (grade3>=70){
+//    grade3 = 'C';
+// } else if (grade3>=60){
+//    grade3 = 'D';
+// } else if (grade3>=40){
+//    grade3 = 'E';
+// } else if (grade3<40){
+//    grade3 = 'F';
+// }
 
 
-if (grade5 >= 90){
-   grade5 = 'A';
-} else if (grade5>=80){
-   grade5 = 'B';
-} else if (grade5>=70){
-   grade5 = 'C';
-} else if (grade5>=60){
-   grade5 = 'D';
-} else if (grade5>=40){
-   grade5 = 'E';
-} else if (grade5<40){
-   grade5 = 'F';
-}
+// if (grade4 >= 90){
+//    grade4 = 'A';
+// } else if (grade4>=80){
+//    grade4 = 'B';
+// } else if (grade4>=70){
+//    grade4 = 'C';
+// } else if (grade4>=60){
+//    grade4 = 'D';
+// } else if (grade4>=40){
+//    grade4 = 'E';
+// } else if (grade4<40){
+//    grade4 = 'F';
+// }
 
 
-console.log('your physics grade is', grade1);
-console.log('your chem grade is', grade2);
-console.log('your bio grade is', grade3);
-console.log('your maths grade is', grade4);
-console.log('your computer grade is', grade5);
+// if (grade5 >= 90){
+//    grade5 = 'A';
+// } else if (grade5>=80){
+//    grade5 = 'B';
+// } else if (grade5>=70){
+//    grade5 = 'C';
+// } else if (grade5>=60){
+//    grade5 = 'D';
+// } else if (grade5>=40){
+//    grade5 = 'E';
+// } else if (grade5<40){
+//    grade5 = 'F';
+// }
+
+
+// console.log('your physics grade is', grade1);
+// console.log('your chem grade is', grade2);
+// console.log('your bio grade is', grade3);
+// console.log('your maths grade is', grade4);
+// console.log('your computer grade is', grade5);
+
+/* **************** END Q14 **************** */
 
 
 
 
+/* **************** Q15 **************** */
+/* Write a program to print total number of days in month */
+
+// var x = Number(prompt('enter number of month'));
+// var b;
+
+// switch (x){
+//    case 1:
+//       b = 31;
+//       break;
+         
+//    case 2:
+//       b = '28 or 29';
+//       break;
+         
+//    case 3:
+//       b = 31;
+//       break;
+         
+//    case 4:
+//       b = 30;
+//       break;
+         
+//    case 5:
+//       b = 31;
+//       break;
+         
+//    case 6:
+//       b = 30;
+//       break;
+         
+//    case 7:
+//       b = 31;
+//       break;
+         
+//    case 8:
+//       b = 31;
+//       break;
+         
+//    case 9:
+//       b = 30;
+//       break;
+         
+//    case 10:
+//       b = 31;
+//       break;
+         
+//    case 11:
+//       b = 30;
+//       break;
+
+//    case 12:
+//       b = 31;
+//       break;
+// }
+// console.log(b);
+
+/* **************** END Q15 **************** */
 
 
 
